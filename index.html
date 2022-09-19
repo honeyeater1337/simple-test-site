@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+	<div align="center">
+		<div class="firststring"> 
+<input type="text" id="forUser" size="40" placeholder = 'Enter your text here'>
+		</div>
+	</div>
+<br>
+	<div align="center">
+		<div class="secondstring"> 
+<input type="button" id="answer" value="Submit">
+<br>
+<output id="output"> 
+		</div>
+	</div>
+
+<style>
+.firststring {
+  background: #fff5d7;
+  padding: 3em 0;
+  text-align: center;
+}
+</style> 
+
+<style>
+.secondstring {
+  background: #afeeee;
+  padding: 3em 0;
+  text-align: center;
+}
+</style> 
+ 
+<script>
+ 
+ var x;
+var answer = document.getElementById("answer");
+answer.onclick = function() {
+  x = document.getElementById("forUser").value;
+  console.log(x);
+  x = x.replace(/[^qruopsdgjcb]/gi, '');
+  x = x.toUpperCase();
+  console.log(x);
+  document.getElementById("output").innerHTML = x;
+};
+</script>
+ 
+</body>
+
+</html>
