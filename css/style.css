@@ -1,0 +1,16 @@
+.firststring {
+  background: #fff5d7;
+  padding: 3em 0;
+  text-align: center;
+  }
+.secondstring {
+  background: #afeeee;
+  padding: 3em 0;
+  text-align: center;
+  }
+ #out {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+  padding-bottom: 20px
+  }
