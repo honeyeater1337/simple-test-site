@@ -5,7 +5,7 @@ answer.onclick = function()
 {
 x = document.getElementById("forUser").value;
 if (x =="") {
-document.getElementById("output").innerHTML = "Please enter some text";
+document.getElementById("output").innerHTML = "Enter some text please";
 } else {
 if (y < 10) {
 x = x.replace(/[a-z]/g, '');
